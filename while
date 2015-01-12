@@ -1,0 +1,20 @@
+def entree():
+	#Les entrees du programme
+	print ("enter une valeur :\n")
+	a = float(input("Indiquez la valeur de a :"))
+	return a
+	
+def pourImpression(a):
+	x=0
+	while x<a+1:
+	 print ("\n"+"x7 = "+str(fonction(x,a))+"\n")
+	 x=x+1
+
+def fonction(x,a):
+	y=  x*7
+	return y
+
+print ("   ---> Debut du programme.\n")
+coefA=entree()
+pourImpression(coefA)
+print ("\n   ---> Fin du programme.")
